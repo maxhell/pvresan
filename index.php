@@ -1,5 +1,5 @@
 <?php
-define('API_KEY','token');
+define('API_KEY','300122866:AAHj5IYfIKL6wBp0U270b_szQKfIp1i2rTg');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -98,7 +98,7 @@ var_dump(makereq('sendMessage',[
 
 🔹برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
-🤖 @PvSazBot",
+🤖 @PvMakerCrBot",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -224,7 +224,7 @@ var_dump(makereq('sendMessage',[
 
 🔹برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
-🤖 @PvSazBot",
+🤖 @PvMakerCrBot",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
